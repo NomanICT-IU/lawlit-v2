@@ -67,6 +67,7 @@
   max-width: 50rem;
   height: auto;
 }
+
 .ellipse-2 {
   position: absolute;
   right: 1.75rem;
@@ -659,13 +660,14 @@ text-align: center;
     margin: 0 2%;
   }
   .ellipse-1 {
-    max-width: 18rem;
-    left: 0;
-    display: none;
+    /* max-width: 18rem;
+    left: 0; */
+    display: none !important;
   }
   .ellipse-2 {
-    left: 3.75rem;
-    display: none;
+    /* left: 3.75rem;
+    display: none; */
+     display: none !important;
   }
 .companies{
   margin-left: 5%;
